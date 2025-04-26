@@ -9,7 +9,7 @@ modelo_path = "/workspaces/final_project_rice/pickle/modelo_logistico.pkl"
 modelo = joblib.load(modelo_path)
 
 # Diccionario para asignar nombres manualmente
-clase_arroz = {1: "Arroz Cammeo", 2: "Arroz Osmancik"}
+clase_arroz = {0: "Arroz Cammeo", 1: "Arroz Osmancik"}
 
 st.title("Predicción de Clase de Arroz con Regresión Logística")
 
